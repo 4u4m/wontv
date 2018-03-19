@@ -297,7 +297,7 @@
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
-            "postToLoad": 3,
+            "postToLoad": "8",
             "facebook": "",
             "twitter": "",
             "google": "",
