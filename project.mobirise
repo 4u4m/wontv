@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "도전365",
+    "name": "원티비, WONTV.NET",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -41,9 +41,12 @@
     "google-analytics": "",
     "sitemapSwitcher": "on",
     "versionFirst": "4.6.4",
-    "uniqCompNum": 35,
+    "uniqCompNum": 36,
     "versionPublish": "4.6.6",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "html_before": "",
+    "headbody": "",
+    "botbody": ""
   },
   "pages": {
     "index.html": {
@@ -56,6 +59,54 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": "70",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "원티비",
+          "text": "\"현장 방송의 시작, 원티비\" \n<br>\n<br>행사, 이벤트, 회의, 축제 등 영상이 필요한 곳은 어디든 달려갑니다.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-z"
+        },
         {
           "_params": {
             "showTitle": true,
@@ -104,7 +155,7 @@
           ],
           "_name": "msg-box5",
           "_anchor": "msg-box5-o",
-          "_customHTML": "<section class=\"mbr-section mbr-parallax-background mbr-after-navbar\" data-rv-view=\"28\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/main-2000x1333.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.6; background-color: rgb(0, 0, 0);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 70%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=PLHGY2UJQPUjRxFuYY6DM9WCr9hurrp-Uq&amp;rel=0&amp;autoplay=1\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n                \n           \n\n              \n\n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-left content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"33\">원티비</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"34\">\"현장 방송의 시작, 원티비\"\n<br><br>행사, 이벤트, 회의, 축제 등 영상이 필요한 곳은 어디든 달려갑니다.&nbsp;</p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UChP4PRxkREj5jvXTpPJ746Q\" target=\"_blank\" code-editable-id=\"35\">지난 방송보기</a></div>\n              </div>\n\n\n              \n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background mbr-after-navbar\" data-rv-view=\"28\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/main-2000x1333.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.6; background-color: rgb(0, 0, 0);\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-table-md-up\">\n\n              <div class=\"mbr-table-cell mbr-right-padding-md-up mbr-valign-top col-md-7 image-size\" style=\"width: 70%;\">\n                  <div class=\"mbr-figure\"><iframe class=\"mbr-embedded-video\" src=\"https://www.youtube.com/embed/videoseries?list=PLHGY2UJQPUjRxFuYY6DM9WCr9hurrp-Uq&amp;rel=0&amp;autoplay=0\" width=\"1280\" height=\"720\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>\n              </div>\n                \n           \n\n              \n\n\n              <div class=\"mbr-table-cell col-md-5 text-xs-center text-md-left content-size\">\n                  <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"22\">원티비</h3>\n                  <div class=\"lead\">\n\n                    <p class=\"mbr-editable-content\" code-editable-id=\"23\">\"현장 방송의 시작, 원티비\"\n<br><br>행사, 이벤트, 회의, 축제 등 영상이 필요한 곳은 어디든 달려갑니다.&nbsp;</p>\n\n                  </div>\n\n                  <div><a class=\"btn btn-primary mbr-editable-button\" href=\"https://www.youtube.com/channel/UChP4PRxkREj5jvXTpPJ746Q\" target=\"_blank\" code-editable-id=\"24\">지난 방송보기</a></div>\n              </div>\n\n\n              \n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "H3 {\n  color: #ffffff;\n  font-size: 24px;\n}\nP {\n  color: #ffffff;\n  font-size: 15px;\n}\n",
@@ -137,7 +188,7 @@
             "slides": [
               {
                 "active": true,
-                "text": "<p>“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
+                "text": "<p><span style=\"font-style: normal;\">“이벤트, 상품, 행사 영상 가볍게 접근해 보세요.”</span></p>",
                 "authorName": "원양호",
                 "authorBio": "<span style=\"font-style: normal;\">카메라 감독</span>",
                 "media": {
@@ -153,9 +204,9 @@
               },
               {
                 "active": false,
-                "text": "<p>“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag & drop with no time design bootstrap builder in present web design world.”</p>",
-                "authorName": "Abanoub S.",
-                "authorBio": "User",
+                "text": "<p><span style=\"font-style: normal;\">“필요한 영상을 스토리에 맞게 앵글 속에 담아 드립니다.”</span></p>",
+                "authorName": "조상호",
+                "authorBio": "<span style=\"font-style: normal;\">PD</span>",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face2.jpg",
@@ -169,9 +220,9 @@
               },
               {
                 "active": false,
-                "text": "<p>“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-                "authorName": "Suffian A.",
-                "authorBio": "User",
+                "text": "<p><span style=\"font-style: normal;\">“인터넷 시대, SNS를 활용하여 전 세계를 향해 마케팅이 가능한 시대입니다.”</span></p>",
+                "authorName": "한광준",
+                "authorBio": "<span style=\"font-style: normal;\">marketor</span>",
                 "media": {
                   "image": {
                     "src": "@PROJECT_PATH@/assets/images/face3.jpg",
@@ -185,8 +236,8 @@
               }
             ]
           },
-          "title": "소셜 미디어 활용 전문가 집단",
-          "subtitle": "<span style=\"font-style: normal;\">소셜미디어 활용으로 세계 속에 여러분을 알려 보세요.</span>",
+          "title": "소셜미디어 활용 전문가집단",
+          "subtitle": "<span style=\"font-style: normal;\">소셜미디어 활용으로 인터넷으로 자신을 알려 보세요.</span>",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
@@ -195,64 +246,7 @@
           "_anchor": "extTestimonials1-y",
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "32px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/cBz4eKZduWc",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "심현용",
-          "text": "2000년 8월5일 1인방송자키로 첫방송을 시작하여 현재까지 현장방송을 전문으로 활동하고 있는 미래모험가이며 얼리어답터, 스마트워커, 디지털유목민 , 캠핑전문가로도 활동하고 있습니다. 도전하는 삶이 아름답다를 슬로우건으로 도전365 채널을 운영하고 있습니다 .",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.facebook.com/wing365/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">페이스북 바로가기</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-n",
-          "_styles": {
-            "P": {
-              "font-size": "14px"
-            },
-            "H3": {
-              "font-size": "36px"
+              "font-size": "24px"
             }
           }
         },
@@ -477,14 +471,14 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.1,
             "iconsColor": "#333333",
-            "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary mbr-editable-button\">지난 방송보기</a>"
+            "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">MORE</a>"
           },
           "title": "CONTACT US",
           "title1": "For your contacts",
           "title2": "Visit our office",
           "subTitle1": "Ready for offers &amp; cooperation",
           "subTitle2": "Glad to meet new people",
-          "text1": "Phone:<a href=\"tel: 010-8559-0817 \"> 010-8559-0817&nbsp;</a><br> Email: wingshim@nate.com",
+          "text1": "Phone:<a href=\"tel: 010-8559-0817 \"> 010-4107-4270&nbsp;</a><br> Email: mikecho1201@naver.com",
           "text2": "서울시 천호대로 368<br> 한국청년회의소 B101",
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SEND MESSAGE</a>",
           "media": {
@@ -523,7 +517,7 @@
             }
           },
           "form": {
-            "action": "wingshim@nate.com",
+            "action": "littlebe@naver.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
