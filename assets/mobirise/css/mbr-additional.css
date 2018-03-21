@@ -1502,12 +1502,6 @@ body {
 .cid-qMJWEkHg2h a.close:hover {
   color: #ffffff;
 }
-#custom-html-5 {
-  /* Type valid CSS here */
-}
-#custom-html-5 .my-image {
-  width: 100%;
-}
 .cid-qMK3wtIyXh {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1536,6 +1530,12 @@ body {
 }
 .cid-qMK3wtIyXh .count {
   color: #ffffff;
+}
+#custom-html-5 {
+  /* Type valid CSS here */
+}
+#custom-html-5 .my-image {
+  width: 100%;
 }
 .cid-qMK5Tg53xi {
   padding-top: 30px;
